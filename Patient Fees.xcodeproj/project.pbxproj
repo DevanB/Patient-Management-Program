@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3E5B05129C5B15006BEF18 /* Patient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB3E5B04129C5B15006BEF18 /* Patient.cpp */; };
+		FB3E5B0F129C5BCA006BEF18 /* Surgery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB3E5B0E129C5BCA006BEF18 /* Surgery.cpp */; };
+		FB9951DE129C367300B286A8 /* Patient_Fees.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB9951DD129C367300B286A8 /* Patient_Fees.1 */; };
+		FB9951E0129C367300B286A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB9951DF129C367300B286A8 /* main.cpp */; };
+		FBF21113129D83E50080AA87 /* Pharmacy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBF21111129D83E50080AA87 /* Pharmacy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB9951D8129C367200B286A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FB9951DE129C367300B286A8 /* Patient_Fees.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB3E5B03129C5A8A006BEF18 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		FB3E5B04129C5B15006BEF18 /* Patient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patient.cpp; sourceTree = "<group>"; };
+		FB3E5B0D129C5BCA006BEF18 /* Surgery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surgery.h; sourceTree = "<group>"; };
+		FB3E5B0E129C5BCA006BEF18 /* Surgery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Surgery.cpp; sourceTree = "<group>"; };
+		FB9951DA129C367200B286A8 /* Patient Fees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Patient Fees"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9951DD129C367300B286A8 /* Patient_Fees.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Patient_Fees.1; sourceTree = "<group>"; };
+		FB9951DF129C367300B286A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FBF21111129D83E50080AA87 /* Pharmacy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pharmacy.cpp; sourceTree = "<group>"; };
+		FBF21112129D83E50080AA87 /* Pharmacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pharmacy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9951D7129C367200B286A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB9951CD129C367100B286A8 = {
+			isa = PBXGroup;
+			children = (
+				FB9951D4129C367200B286A8 /* Source */,
+				FB9951D5129C367200B286A8 /* Documentation */,
+				FB9951DB129C367200B286A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9951D4129C367200B286A8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FB9951DF129C367300B286A8 /* main.cpp */,
+				FB3E5B03129C5A8A006BEF18 /* Patient.h */,
+				FB3E5B04129C5B15006BEF18 /* Patient.cpp */,
+				FB3E5B0D129C5BCA006BEF18 /* Surgery.h */,
+				FB3E5B0E129C5BCA006BEF18 /* Surgery.cpp */,
+				FBF21112129D83E50080AA87 /* Pharmacy.h */,
+				FBF21111129D83E50080AA87 /* Pharmacy.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FB9951D5129C367200B286A8 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				FB9951DD129C367300B286A8 /* Patient_Fees.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		FB9951DB129C367200B286A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9951DA129C367200B286A8 /* Patient Fees */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9951D9129C367200B286A8 /* Patient Fees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9951E3129C367300B286A8 /* Build configuration list for PBXNativeTarget "Patient Fees" */;
+			buildPhases = (
+				FB9951D6129C367200B286A8 /* Sources */,
+				FB9951D7129C367200B286A8 /* Frameworks */,
+				FB9951D8129C367200B286A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Patient Fees";
+			productName = "Patient Fees";
+			productReference = FB9951DA129C367200B286A8 /* Patient Fees */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB9951CF129C367100B286A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = FindMySpace;
+			};
+			buildConfigurationList = FB9951D2129C367100B286A8 /* Build configuration list for PBXProject "Patient Fees" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB9951CD129C367100B286A8;
+			productRefGroup = FB9951DB129C367200B286A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9951D9129C367200B286A8 /* Patient Fees */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9951D6129C367200B286A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9951E0129C367300B286A8 /* main.cpp in Sources */,
+				FB3E5B05129C5B15006BEF18 /* Patient.cpp in Sources */,
+				FB3E5B0F129C5BCA006BEF18 /* Surgery.cpp in Sources */,
+				FBF21113129D83E50080AA87 /* Pharmacy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB9951E1129C367300B286A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		FB9951E2129C367300B286A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		FB9951E4129C367300B286A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Patient Fees";
+			};
+			name = Debug;
+		};
+		FB9951E5129C367300B286A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Patient Fees";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB9951D2129C367100B286A8 /* Build configuration list for PBXProject "Patient Fees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9951E1129C367300B286A8 /* Debug */,
+				FB9951E2129C367300B286A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9951E3129C367300B286A8 /* Build configuration list for PBXNativeTarget "Patient Fees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9951E4129C367300B286A8 /* Debug */,
+				FB9951E5129C367300B286A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB9951CF129C367100B286A8 /* Project object */;
+}

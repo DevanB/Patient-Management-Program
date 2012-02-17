@@ -1,0 +1,51 @@
+TPatient Fees
+v7
+r0
+t312232535.096298
+cCheck dependencies
+cCompileC "build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o" "/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5F178E00000000000000EE
+t1281300366
+s238
+
+N/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp
+c000000004CEC12D50000000000000503
+t1290539733
+s1283
+i<iostream>
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees
+t2
+s0
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient Fees.LinkFileList
+c000000004CEC12D60000000000000077
+t1290539734
+s119
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312232534#312232534#0(0"0(0#1#0"27866456492998768#0"0#
+
+CCompileC "build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o" "/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+s312232534.950999
+e312232535.096165
+r0
+xCompileC
+xbuild/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o
+x/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@63"Compile /Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp312232535#312232535#0(605"/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp: In member function 'void Patient::setCharges(double, double)':/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp:38: error: expected `;' before '}' token/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp: In function 'int main()':/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp:52: error: 'cout' was not declared in this scope/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp:53: error: 'cin' was not declared in this scope/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp:70: error: expected `}' at end of input4(4@29"Expected `;' before '}' token312232535#120#97#0(6@55"/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp312232533#38#0#38#0#19"expected * before *0(4@37"'cout' was not declared in this scope312232535#300#105#0(6@55"/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp312232533#52#0#52#0#34"'*' was not declared in this scope0(4@36"'cin' was not declared in this scope312232535#405#104#0(6@55"/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp312232533#53#0#53#0#34"'*' was not declared in this scope0(4@28"Expected `}' at end of input312232535#509#96#0(6@55"/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp312232533#70#0#70#0#0"0(0#0#55"/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp8245930584228258816#1476"    cd "/Users/devanbeitel/Desktop/Patient Fees"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-generated-files.hmap" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-own-target-headers.hmap" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-all-target-headers.hmap" -iquote "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-project-headers.hmap" "-F/Users/devanbeitel/Desktop/Patient Fees/build/Debug" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Debug/include" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/DerivedSources/x86_64" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/DerivedSources" -isysroot /Developer/SDKs/MacOSX10.6.sdk -c "/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp" -o "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees" normal x86_64
+r0
+

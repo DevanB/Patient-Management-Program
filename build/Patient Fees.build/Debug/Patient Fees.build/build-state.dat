@@ -1,0 +1,108 @@
+TPatient Fees
+v7
+r0
+t312236960.512601
+cCheck dependencies
+cCompileC "build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o" "/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+cCompileC "build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient.o" "/Users/devanbeitel/Desktop/Patient Fees/Source/Patient.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+cLd "/Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5F178E00000000000000EE
+t1281300366
+s238
+
+N/Users/devanbeitel/Desktop/Patient Fees/Source/Patient.cpp
+c000000004CEC23EF0000000000000194
+t1290544111
+s404
+i"Patient.h"
+i<iostream>
+
+N/Users/devanbeitel/Desktop/Patient Fees/Source/Patient.h
+c000000004CEC236100000000000001DA
+t1290543969
+s474
+
+N/Users/devanbeitel/Desktop/Patient Fees/Source/Surgery.cpp
+c000000004CEC244A00000000000000A3
+t1290544202
+s163
+i"Surgery.h"
+
+N/Users/devanbeitel/Desktop/Patient Fees/Source/Surgery.h
+c000000004CEC249900000000000000EF
+t1290544281
+s239
+
+N/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp
+c000000004CEC240C000000000000027E
+t1290544140
+s638
+i<iostream>
+i"Patient.h"
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees
+t1290544146
+s11528
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient Fees.LinkFileList
+c000000004CEC241100000000000000F1
+t1290544145
+s241
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient.o
+t1290544112
+s25416
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Surgery.o
+t2
+s0
+
+N/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o
+t1290544140
+s24628
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312236960#312236960#0(0"0(0#1#0"8614862144#0"0#
+
+CCompileC "build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient.o" "/Users/devanbeitel/Desktop/Patient Fees/Source/Patient.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+s312236945.601418
+e312236945.620120
+r1
+xCompileC
+xbuild/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient.o
+x/Users/devanbeitel/Desktop/Patient Fees/Source/Patient.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@66"Compile /Users/devanbeitel/Desktop/Patient Fees/Source/Patient.cpp312236945#312236945#0(0"0(0#0#58"/Users/devanbeitel/Desktop/Patient Fees/Source/Patient.cpp8615814592#1482"    cd "/Users/devanbeitel/Desktop/Patient Fees"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-generated-files.hmap" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-own-target-headers.hmap" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-all-target-headers.hmap" -iquote "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-project-headers.hmap" "-F/Users/devanbeitel/Desktop/Patient Fees/build/Debug" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Debug/include" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/DerivedSources/x86_64" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/DerivedSources" -isysroot /Developer/SDKs/MacOSX10.6.sdk -c "/Users/devanbeitel/Desktop/Patient Fees/Source/Patient.cpp" -o "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient.o"0#
+
+CCompileC "build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Surgery.o" "/Users/devanbeitel/Desktop/Patient Fees/Source/Surgery.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC "build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o" "/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+s312236945.568582
+e312236945.601236
+r1
+xCompileC
+xbuild/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o
+x/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@63"Compile /Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp312236945#312236945#0(0"0(0#0#55"/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp8616616224#1476"    cd "/Users/devanbeitel/Desktop/Patient Fees"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-generated-files.hmap" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-own-target-headers.hmap" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-all-target-headers.hmap" -iquote "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Patient Fees-project-headers.hmap" "-F/Users/devanbeitel/Desktop/Patient Fees/build/Debug" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Debug/include" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/DerivedSources/x86_64" "-I/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/DerivedSources" -isysroot /Developer/SDKs/MacOSX10.6.sdk -c "/Users/devanbeitel/Desktop/Patient Fees/Source/main.cpp" -o "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees" normal x86_64
+s312236945.620303
+e312236946.862034
+r1
+xLd
+x/Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees
+xnormal
+xx86_64
+lSLF07#2@69"Link /Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees312236945#312236946#0(0"0(0#0#0"8597013024#538"    cd "/Users/devanbeitel/Desktop/Patient Fees"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/devanbeitel/Desktop/Patient Fees/build/Debug" "-F/Users/devanbeitel/Desktop/Patient Fees/build/Debug" -filelist "/Users/devanbeitel/Desktop/Patient Fees/build/Patient Fees.build/Debug/Patient Fees.build/Objects-normal/x86_64/Patient Fees.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/devanbeitel/Desktop/Patient Fees/build/Debug/Patient Fees"0#
+
